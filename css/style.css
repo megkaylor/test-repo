@@ -1,0 +1,84 @@
+body{
+  margin: 0 auto; /* the auto (left and right) is what centres the body. */
+  padding: 0;
+  max-width: 1280px;
+  display: grid;
+  font-family: helvetica;
+  font-size: 8;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  float: left;
+  margin-top: 20px;
+  /*margin: 0 auto;*/
+  height: 50px;
+  width: 100%;
+    margin-bottom: 80px;
+}
+
+.logo{
+  height: 50px;
+}
+
+.navtitle{
+  text-align: right;
+  font-family: helvetica;
+  font-size: 10pt;
+  font-style: normal;
+  color: #9999ff;
+}
+
+nav.navbar{
+  background-color: #FFF;
+  height: 50px;
+  text-align: right;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.navtext{
+  font-family: helvetica;
+  font-size: 8;
+  text-decoration: none;
+  padding-right: 30px;
+  color: #d98cb3;
+}
+
+.shroompic{
+  height: 400px;
+  padding-left: 40px;
+}
+
+.whitebutterfly{
+  height: 400px;
+  padding-left: 20px;
+}
+
+.hometext{
+  color: #3d3d5c;
+}
+
+.signup{
+  text-decoration: none;
+  font-family: helvetica;
+  color: #FFF;
+  text-align: center;
+  border: 1px #9999ff;
+  background-color: #9999ff;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.footer{
+  margin-top: 30px;
+  background-color:#e0e0eb;
+  height: 70px;
+  width: 100%;
+  left:0px;
+  bottom:0px;
+  text-align: center;
+  font-size: 10px;
+  padding-top: 40px;
+}
